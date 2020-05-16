@@ -1,2 +1,2 @@
 # bbopt
-Black-box optimization techniques for probabilistic coverage and verification
+Black-box optimization techniques for test-case generation with probabilistic coverage guarantees.
