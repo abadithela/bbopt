@@ -1,0 +1,6 @@
+[submodule "TreeSearch"]
+	path = TreeSearch
+	url = https://github.com/abadithela/bbopt.git
+[submodule "TreeSearch2"]
+	path = TreeSearch2
+	url = https://github.com/abadithela/bbopt.git
