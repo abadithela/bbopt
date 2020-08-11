@@ -29,9 +29,9 @@ for jx = 1:N
 for jv = 1:N
     j = j+1;
     X(j) = X0(jx);
-    set_param('CM/CM System/Pos','InitialCondition',num2str(h));
+    set_param('CM/CM System/Pos','InitialCondition',num2str(X(j)));
     V(j) = V0(jv);
-    set_param('CM/CM System/Vel','InitialCondition',num2str(h));
+    set_param('CM/CM System/Vel','InitialCondition',num2str(V(j)));
     simOut = sim('CM','SaveTime','on','TimeSaveName','tout');
     xj = simOut.logsOut.get('pos').Values.Data;
     vj = simOut.logsOut.get('vel').Values.Data;
