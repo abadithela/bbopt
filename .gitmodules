@@ -4,3 +4,6 @@
 [submodule "TreeSearch2"]
 	path = TreeSearch2
 	url = https://github.com/abadithela/bbopt.git
+[submodule "ARCH-2019"]
+	path = ARCH-2019
+	url = https://github.com/verivital/ARCH-2019.git
